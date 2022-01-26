@@ -8,19 +8,19 @@ Bootstrap 5 requires no additional resources or configurations
 The list below was created directly from the bootstrap.css file from Bootstrap
 5.1.13 by the following process in BBEdit:
 
-1. Isolate class names by replacing "\s\.([-a-z0-9]+)" with "\n©\1©\n" thus
+1. Isolate class names by replacing `\s\.([-a-z0-9]+)` with `\n©\1©\n` thus
    placing each class name on a line of its own with unique delimiters.
 2. Removing all content except the isolated classes by replacing
-   "^[^©].*\n" with nothing.
-3. Removing the delimiters by replacing "©(.+)©" with "\1".
+   `^[^©].*\n` with nothing.
+3. Removing the delimiters by replacing `©(.+)©` with `\1`.
 4. Sorting all of the lines.
 5. Deduplicating the lines (as many classes appear in multiple style blocks).
 6. Removed some junk at the start of the file.
 
 The extension-ready version then took two extra steps:
 
-7. Converted the list to the required XML elements by replacing "^(.+)$"
-   with <completion string="\1" />
+7. Converted the list to the required XML elements by replacing `^(.+)$`
+   with `<completion string="\1" />`
 8. After pasting into Nova the text was formatted with a plugin.
 
 ## Class list (a free-text list of all classes included)

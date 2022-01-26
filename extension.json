@@ -1,0 +1,18 @@
+{
+    "identifier": "me.zkarj.bootstrap5",
+    "name": "Bootstrap 5",
+    "organization": "me.zkarj",
+    "description": "Auto-complete for all Bootstrap 5 class names",
+    "version": "1.1",
+    "categories": ["completions"],
+    "bugs": "https://zkarj.me/",
+    
+    "activationEvents": [
+        "onLanguage:html"
+    ],
+    
+    "categories": [
+        "completions"
+    ]
+    
+}
